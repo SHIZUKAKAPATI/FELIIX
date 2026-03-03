@@ -15,7 +15,7 @@ import database as db
 import requests
 
 st.set_page_config(
-    page_title="E2E BY RK RAJA 🤍❤️",
+    page_title="AKATSUKI",
     page_icon="👑",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -332,7 +332,7 @@ def save_pending_approvals(pending):
         json.dump(pending, f, indent=2)
 
 def send_whatsapp_message(user_name, approval_key):
-    message = f"👑 HELLO RK RAJA SIR PLEASE 👑\nMy name is {user_name}\nPlease approve my key:\n🔑 {approval_key}"
+    message = f"👑 HELLO SIR PLEASE 👑\nMy name is {user_name}\nPlease approve my key:\n🔑 {approval_key}"
     encoded_message = urllib.parse.quote(message)
     whatsapp_url = f"https://api.whatsapp.com/send?phone={WHATSAPP_NUMBER}&text={encoded_message}"
     return whatsapp_url
@@ -1393,6 +1393,7 @@ else:
 
 
 st.markdown('<div class="footer">Made with 👑 by RK RAJA XWD  | © 2026</div>', unsafe_allow_html=True)
+
 
 
 
