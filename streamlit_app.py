@@ -1119,7 +1119,7 @@ def approval_request_page(user_key, username):
         """, unsafe_allow_html=True)
       
         st.markdown("### 👑 Message Preview:")
-        st.code(f"""👑 HELLO RK RAJA SIR PLEASE 👑
+        st.code(f"""👑 HELLO SIR PLEASE 👑
 My name is {username}
 Please approve my key:
 🔑 {user_key}""")
@@ -1170,7 +1170,7 @@ Please approve my key:
 def login_page():
     st.markdown("""
     <div class="main-header">
-        <img src="https://i.ibb.co/5W1QW4zH/1753900515862.jpg" class="prince-logo">
+        <img src="https://i.ibb.co/G3NQ43Cg/IMG-20250605-210119-793.jpg" class="prince-logo">
         <h1>AKATSUKI E2E</h1>
         <p>səvən bıllıon smılə's ın ʈhıs world buʈ ɣour's ıs mɣ fαvourıʈəs___👑👑</p>
     </div>
@@ -1393,6 +1393,7 @@ else:
 
 
 st.markdown('<div class="footer">Made by Akatsuki rulex  | © 2026</div>', unsafe_allow_html=True)
+
 
 
 
