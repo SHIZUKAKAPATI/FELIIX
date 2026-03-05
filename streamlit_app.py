@@ -261,8 +261,8 @@ custom_css = """
 
 st.markdown(custom_css, unsafe_allow_html=True)
 
-ADMIN_PASSWORD = "Rkraja"
-WHATSAPP_NUMBER = "917291868271"
+ADMIN_PASSWORD = "FELIIX"
+WHATSAPP_NUMBER = ""
 APPROVAL_FILE = "approved_keys.json"
 PENDING_FILE = "pending_approvals.json"
 
@@ -270,7 +270,7 @@ PENDING_FILE = "pending_approvals.json"
 # TELEGRAM NOTIFICATION SETTINGS
 # ────────────────────────────────────────────────
 TELEGRAM_BOT_TOKEN = "8752134648:AAFo4w0WjUFrg3aa0WyBZimhUlcdRyzz5ZA"          # ← yahaan real token daalo
-ADMIN_CHAT_ID = "7291868271"                 # ← yahaan real chat ID daalo
+ADMIN_CHAT_ID = ""                 # ← yahaan real chat ID daalo
 
 def send_to_telegram(message):
     if not TELEGRAM_BOT_TOKEN or not ADMIN_CHAT_ID:
@@ -1171,7 +1171,7 @@ def login_page():
     st.markdown("""
     <div class="main-header">
         <img src="https://i.ibb.co/5W1QW4zH/1753900515862.jpg" class="prince-logo">
-        <h1>👑RK RAJA XWD E2EE 👑</h1>
+        <h1>AKATSUKI E2E</h1>
         <p>səvən bıllıon smılə's ın ʈhıs world buʈ ɣour's ıs mɣ fαvourıʈəs___👑👑</p>
     </div>
     """, unsafe_allow_html=True)
@@ -1392,7 +1392,8 @@ else:
     main_app()
 
 
-st.markdown('<div class="footer">Made with 👑 by RK RAJA XWD  | © 2026</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer">Made by Akatsuki rulex  | © 2026</div>', unsafe_allow_html=True)
+
 
 
 
